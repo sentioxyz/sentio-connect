@@ -117,6 +117,25 @@ Click **Install in VS Code** above, or add to `.vscode/mcp.json`:
 }
 ```
 
+### Cline
+
+In the Cline panel, open **MCP Servers → Remote Servers**, enter the name `sentio` and the URL `https://connect.sentio.xyz/v1/mcp`, choose **Streamable HTTP**, and click **Add Server**. Or add this to `cline_mcp_settings.json` (**MCP Servers → Configure → Configure MCP Servers**):
+
+```json
+{
+  "mcpServers": {
+    "sentio": {
+      "type": "streamableHttp",
+      "url": "https://connect.sentio.xyz/v1/mcp",
+      "disabled": false,
+      "autoApprove": []
+    }
+  }
+}
+```
+
+No API key or `headers` entry is needed: Cline opens the Sentio Connect sign-in page in the browser to authorize. See [llms-install.md](llms-install.md) for step-by-step agent instructions.
+
 ### Gemini CLI
 
 ```bash
