@@ -10,8 +10,10 @@ Sentio Connect is a hosted [Model Context Protocol](https://modelcontextprotocol
 https://connect.sentio.xyz/v1/mcp
 ```
 
-[![Add to Cursor](https://cursor.com/deeplink/mcp-install-dark.svg)](https://cursor.com/en/install-mcp?name=sentio&config=eyJ1cmwiOiJodHRwczovL2Nvbm5lY3Quc2VudGlvLnh5ei92MS9tY3AifQ==)
-[![Install in VS Code](https://img.shields.io/badge/VS_Code-Install-0098FF?logo=visualstudiocode&logoColor=white)](https://insiders.vscode.dev/redirect/mcp/install?name=sentio&config=%7B%22type%22%3A%22http%22%2C%22url%22%3A%22https%3A%2F%2Fconnect.sentio.xyz%2Fv1%2Fmcp%22%7D)
+<p>
+  <a href="https://cursor.com/en/install-mcp?name=sentio&config=eyJ1cmwiOiJodHRwczovL2Nvbm5lY3Quc2VudGlvLnh5ei92MS9tY3AifQ=="><img src="https://cursor.com/deeplink/mcp-install-dark.svg" height="32" alt="Add to Cursor"></a>
+  <a href="https://insiders.vscode.dev/redirect/mcp/install?name=sentio&config=%7B%22type%22%3A%22http%22%2C%22url%22%3A%22https%3A%2F%2Fconnect.sentio.xyz%2Fv1%2Fmcp%22%7D"><img src="https://img.shields.io/badge/Install_in_VS_Code-0098FF?style=flat" height="32" alt="Install in VS Code"></a>
+</p>
 
 ## Screenshots
 
