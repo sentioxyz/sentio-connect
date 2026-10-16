@@ -1,0 +1,9 @@
+{
+  "mcpServers": {
+    "sentio": {
+      "type": "http",
+      "url": "https://connect.sentio.xyz/v1/mcp",
+      "oauth_resource": "https://connect.sentio.xyz/v1/mcp"
+    }
+  }
+}

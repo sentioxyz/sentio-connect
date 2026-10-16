@@ -1,0 +1,53 @@
+{
+  "name": "sentio-connector",
+  "version": "0.1.0",
+  "description": "Wallet balances, token prices, portfolio value and DeFi positions from Sentio, via the hosted Sentio Connect MCP server.",
+  "author": {
+    "name": "Sentio",
+    "url": "https://www.sentio.xyz/"
+  },
+  "homepage": "https://connect.sentio.xyz",
+  "repository": "https://github.com/sentioxyz/sentio-connect",
+  "license": "Proprietary",
+  "keywords": [
+    "sentio",
+    "wallet",
+    "portfolio",
+    "defi",
+    "token price",
+    "ethereum",
+    "base",
+    "arbitrum",
+    "bnb"
+  ],
+  "skills": "./skills/",
+  "mcpServers": "./.mcp.json",
+  "interface": {
+    "displayName": "Sentio Connect",
+    "developerName": "Sentio",
+    "shortDescription": "On-chain wallet & portfolio data",
+    "longDescription": "Ask about the wallets you track: native and token balances valued in USD, token spot prices, total portfolio value across Ethereum, BNB Chain, Base, Arbitrum and Sui, and cross-chain DeFi positions (lending, staking, LPs, rewards). Sign in once with your Sentio Connect account; the plugin only reads data and can add addresses to your own tracked list.",
+    "category": "Data & Analytics",
+    "capabilities": [
+      "Read",
+      "Write"
+    ],
+    "defaultPrompt": [
+      "What is the total USD value of all the wallets I track?",
+      "Show the token balances of vitalik.eth on Ethereum.",
+      "List my DeFi positions on Base and Arbitrum."
+    ],
+    "websiteURL": "https://www.sentio.xyz/",
+    "privacyPolicyURL": "https://www.sentio.xyz/privacy",
+    "brandColor": "#0756D5",
+    "brandColorDark": "#36F7F7",
+    "logo": "./assets/app-icon.png",
+    "logoDark": "./assets/app-icon.png",
+    "composerIcon": "./assets/sentio-icon.svg",
+    "screenshots": [
+      "./assets/screenshots/balances-card.png",
+      "./assets/screenshots/defi-card.png",
+      "./assets/screenshots/history-chart.png"
+    ]
+  }
+}

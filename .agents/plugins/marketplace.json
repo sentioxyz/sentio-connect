@@ -1,0 +1,20 @@
+{
+  "name": "sentio",
+  "interface": {
+    "displayName": "Sentio Plugins"
+  },
+  "plugins": [
+    {
+      "name": "sentio-connector",
+      "source": {
+        "source": "local",
+        "path": "./codex-plugin"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Data & Analytics"
+    }
+  ]
+}
