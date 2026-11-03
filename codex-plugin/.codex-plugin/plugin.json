@@ -8,7 +8,7 @@
   },
   "homepage": "https://connect.sentio.xyz",
   "repository": "https://github.com/sentioxyz/sentio-connect",
-  "license": "Proprietary",
+  "license": "MIT",
   "keywords": [
     "sentio",
     "wallet",

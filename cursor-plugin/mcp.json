@@ -1,0 +1,7 @@
+{
+  "mcpServers": {
+    "sentio": {
+      "url": "https://connect.sentio.xyz/v1/mcp"
+    }
+  }
+}

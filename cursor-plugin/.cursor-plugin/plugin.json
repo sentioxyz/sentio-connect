@@ -1,0 +1,16 @@
+{
+  "name": "sentio-connect",
+  "version": "0.1.0",
+  "description": "Wallet balances, token prices, portfolio value and DeFi positions from Sentio, via the hosted Sentio Connect MCP server.",
+  "author": {
+    "name": "Sentio",
+    "email": "support@sentio.xyz"
+  },
+  "homepage": "https://connect.sentio.xyz",
+  "repository": "https://github.com/sentioxyz/sentio-connect",
+  "license": "MIT",
+  "keywords": ["sentio", "wallet", "portfolio", "defi", "token-price", "mcp"],
+  "logo": "assets/logo.png",
+  "skills": "skills",
+  "mcpServers": "mcp.json"
+}

@@ -1,0 +1,12 @@
+{
+  "name": "sentio",
+  "owner": { "name": "Sentio" },
+  "metadata": { "description": "Sentio plugins for Cursor" },
+  "plugins": [
+    {
+      "name": "sentio-connect",
+      "source": "cursor-plugin",
+      "description": "Wallet balances, token prices, portfolio value and DeFi positions from Sentio"
+    }
+  ]
+}
