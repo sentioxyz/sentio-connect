@@ -6,8 +6,8 @@ description: Answer questions about tracked crypto wallets using the Sentio Conn
 # Sentio Connect
 
 All data comes from the `sentio` MCP server (hosted at `https://connect.sentio.xyz/v1/mcp`).
-The user signs in once via OAuth; if a tool returns an authorization error, tell the user to run
-`codex mcp login sentio` (CLI) or re-authorize Sentio Connect in the app's MCP settings.
+The user signs in once via OAuth; if a tool returns an authorization error, tell the user to
+re-authorize the `sentio` server in Cursor Settings → MCP.
 
 ## Tools
 
