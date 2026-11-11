@@ -73,7 +73,9 @@ Then run `/mcp` inside Claude Code to sign in.
 
 ### ChatGPT
 
-**Settings → Apps & Connectors → Create** (developer mode), set the MCP server URL to `https://connect.sentio.xyz/v1/mcp` and authentication to OAuth.
+Install [Sentio Connect from the official ChatGPT plugin directory](https://chatgpt.com/plugins/plugin_asdk_app_6acca2dacbac8191a724d9200ba579c9), click **Add**, then sign in to Sentio and click **Allow connection**.
+
+Or add it manually: create a custom MCP app (**Plugins → Add → Create MCP App**), set the server URL to `https://connect.sentio.xyz/v1/mcp` and authentication to OAuth.
 
 ### Codex
 
